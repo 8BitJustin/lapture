@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef96db3c-c4e2-4dfb-8184-c50d3681e687" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_world.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lapture.py" beforeDir="false" afterPath="$PROJECT_DIR$/lapture.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,6 +52,9 @@
       <module name="LAPture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
