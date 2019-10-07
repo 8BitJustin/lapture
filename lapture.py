@@ -1,18 +1,23 @@
-import cv2, time
+import cv2, time, sys
 from datetime import datetime
 
-# timestamp for file name as time image saved
-timestamp = datetime.now()
-timestamp = timestamp.strftime("%Y-%m-%d-%H-%M-%S")
+time.sleep(10)
 
-cam = cv2.VideoCapture(0)
+def lapture():
+    # timestamp for file name as time image saved
+    timestamp = datetime.now()
+    timestamp = timestamp.strftime("%Y-%m-%d-%H-%M-%S")
 
-check, frame = cam.read()
+    cam = cv2.VideoCapture(0)
 
-print(check)
+    check, frame = cam.read()
 
-time.sleep(3)
+    print(check)
 
-cv2.imwrite(timestamp + ".jpg", frame)
+    time.sleep(3)
 
-cam.release()
+    cv2.imwrite(timestamp + ".jpg", frame)
+
+    cam.release()
+
+lapture()
